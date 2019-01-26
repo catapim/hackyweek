@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(rgb(181, 1, 139), yellow);
+    color:white;
+    font-family: sans-serif;
+    height: 100%;
+    margin-top: 0px;
+  margin-bottom: 0px;
+  background-attachment: fixed;
+
+}
+
+#main-container {
+    text-align: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+#title-row {
+
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+#title {
+    margin: 0 auto;
+    margin-top:30px;
+}
+
+#input-email {
+    width: 100%;
+    margin:5px;
+    font-size: 30px;
+    height: 50px;
+    
+}
+
+#subscribe-text {
+    font-size: 20px;
+    letter-spacing: 3px;
+
+}
+
+#btn-subscribe {
+    width: 100%;
+    height: 50px;
+    background-color:yellow;
+    margin:5px;
+    color:black;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: yellow;
+}
+
+#btn-subscribe:hover, #btn-subscribe:active {
+    background-color:rgb(255, 225, 0);
+
+}
+
+#text-subjects {
+    color:rgba(255, 255, 255, 0.534);
+    font-size:25px;    
+}
