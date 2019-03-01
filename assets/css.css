@@ -4,9 +4,9 @@ body {
     font-family: sans-serif;
     height: 100%;
     margin-top: 0px;
-  margin-bottom: 0px;
-  background-attachment: fixed;
-
+    /* margin-bottom: 0px; */
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 #main-container {
@@ -68,21 +68,22 @@ h1 {
     font-size:25px;    
 }
 
-#footer {
+#version-info {
     /* position: fixed; */
-    bottom: 10%;
     width: 100%;
+    margin-top:5%;
+    text-align: center;
 }
 
-#footer p {
+#version-info p {
     font-size: 18px;
     letter-spacing: 5px;
     font-style: italic;
     text-align: center;
-    color:rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.671);
     font-weight: bolder;
 }
 
 #index-subscribe-container {
-    margin-top:10%;
+    margin-top:4%;
 }
