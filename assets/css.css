@@ -16,6 +16,7 @@ body {
     min-height: 100%;
 }
 #title-row {
+    margin-top:5%;
 
 }
 
@@ -65,4 +66,23 @@ h1 {
 #text-subjects {
     color:rgba(255, 255, 255, 0.534);
     font-size:25px;    
+}
+
+#footer {
+    /* position: fixed; */
+    bottom: 10%;
+    width: 100%;
+}
+
+#footer p {
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+#index-subscribe-container {
+    margin-top:10%;
 }
