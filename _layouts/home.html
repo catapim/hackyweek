@@ -1,18 +1,10 @@
 <html>
 <head>
-    <title>hackyweek</title>
+    <!-- copia de default -->
+    <title>Hackyweek</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- open graph -->
-    <meta property="og:title" content="hackyweek" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.hackyweek.com" />
-    <meta property="og:image" content="/assets/open.png"/>
-    <meta property="og:description" content="El newsletter semanal con los mejores eventos de tecnología de Chile"/>
-
-    <meta name="El newsletter semanal con los mejores eventos de tecnología de Chile">
 
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
@@ -38,6 +30,16 @@
 
 
     <div class="container" id="main-container">
+        <div class="row" id="title-row">
+            <div class="col-12" id="title">
+                <h1 id="title">hackyweek</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            {{ content }}
+        </div>
+            {% include donation.html %}
     </div>
 </body>
 </html>
